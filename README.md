@@ -36,9 +36,9 @@ Những tính năng cơ bản của TMUX:
 
 * Đọc theo thứ sau:
    + README.md
-   + 1_cai_dat_va_bat_dau_su_dung.txt
-   + 2_lam_viec_voi_session.txt
-   + 3_lam_viec_voi_windown_tab.txt
-   + 4_lam_viec_voi_pane.txt
-   + 5_copy_mode_trong_tmux.txt
-   + 6_tuy_bien_thanh_trang_thai_cua_tmux.txt
+   + [1_cai_dat_va_bat_dau_su_dung](https://github.com/kuonvu/su_dung_tmux/blob/master/1_cai_dat_va_bat_dau_su_dung.md)
+   + [2_lam_viec_voi_session]
+   + [3_lam_viec_voi_windown_tab]
+   + [4_lam_viec_voi_pane]
+   + [5_copy_mode_trong_tmux]
+   + [6_tuy_bien_thanh_trang_thai_cua_tmux]
