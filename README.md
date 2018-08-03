@@ -1,4 +1,4 @@
-# Cách sử dụng tmux
+# Mở đầu 
 
 ![alt tag](https://github.com/kuonvu/su_dung_tmux/blob/master/tmux.png)
 
@@ -29,7 +29,7 @@ Những tính năng cơ bản của TMUX:
   Mỗi phần terminal được chia này họat động như những terminal riêng rẽ và được gọi là các "Pane".
 
 * Cuộn để xem lịch sử hiển thị của một "Pane" trong tmux.
-  Dùng hotkey để sao chép chuỗi ký tự (1 lý do nữa để vất con chuột đi :) ).
+  Dùng hotkey để sao chép chuỗi ký tự (1 lý do nữa để vất con chuột đi :).
 
 * Thanh trạng thái (bottom line) trong TMUX cũng có thể được tùy biến để giúp ta hiển thị ngày/giờ,
   tình trạng sử dụng cpu/ram, thời tiết hiện tại ... 
