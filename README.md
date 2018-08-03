@@ -1,44 +1,24 @@
-# Mở đầu 
+### Cài đặt chương trình:
+   * ubuntu:
+      ``` $ sudo apt-get install tmux ```
+   * opensuse:
+      ``` $ sudo zypper install tmux ```
 
-![alt tag](https://github.com/kuonvu/su_dung_tmux/blob/master/tmux.png)
+### Các lệnh làm việc với cửa sổ
+```
+Ctrl+b c      # Tạo một cửa sổ mới
+Ctrl+b w      # Xem danh sách cửa sổ hiện tại
+Ctrl+b n/p    # Chuyển đến cửa sổ tiếp theo hoặc trước đó
+Ctrl+b f      # Tìm kiếm cửa sổ
+Ctrl+b ,      # Đặt/Đổi tên cho cửa sổ
+Ctrl+b &      # Đóng cửa sổ
+```
 
-Môi trường làm việc của người dùng Linux thường là môi trường command line.
-Và các chương trình terminal có sẵn ở các máy Linux chỉ hỗ trợ người dùng những tính năng cơ bản mà thôi.
-
-Bởi vậy người mới bắt đầu sử dụng Linux sẽ cảm thấy giao diện command line rất khó sử dụng và ko
-tốt bằng giao diện GUI nơi mà mọi thứ có thể hòan thành bằng việc nhấn chuột.
-
-Nhưng trong môi trường làm việc chuyên nghiệp, nhất là đối với các quản trị viên hệ thống hay lập
-trình viên hệ thống, giao diện command line sẽ đem lại cho họ những tính năng vượt trội so với
-giao diện GUI.
-Gõ phím thường nhanh hơn, hiệu quả hơn, chính xác hơn là tìm nút/di chuyển chuột và nhấn.
-
-Với TMUX bạn có thể quên đi con chuột của bạn mà vẫn làm việc tốt hơn nhiều trong môi trường Linux.
-
-Những tính năng cơ bản của TMUX:
-
-* Lưu phiên làm việc hiện tại ở các máy linux server, sau đó dù có mất kết nối tạm thời từ máy tính
-  cá nhân đến máy Linux server thì ta vẫn có thể tiếp tục phiên làm việc cũ mà ko bị mất gì cả.
-  Tính năng này rất quan trọng đối với những người qủan trị/sử dụng những máy Linux ở xa và có
-  đường kết nối không tốt đến nó.
-
-* Tạo ra nhiều Window Tab, mỗi Window Tab có thể bao gồm nhiều "Pane" trong đó.
-  Ta có thể dùng phím tắt để di chuyển giữa các Window Tab.
-
-* Chia màn hình của từng Window Tab theo chiều dọc hay chiều ngang một cách tùy ý.
-  Mỗi phần terminal được chia này họat động như những terminal riêng rẽ và được gọi là các "Pane".
-
-* Cuộn để xem lịch sử hiển thị của một "Pane" trong tmux.
-  Dùng hotkey để sao chép chuỗi ký tự (1 lý do nữa để vất con chuột đi :).
-
-* Thanh trạng thái (bottom line) trong TMUX cũng có thể được tùy biến để giúp ta hiển thị ngày/giờ,
-  tình trạng sử dụng cpu/ram, thời tiết hiện tại ... 
-
-* Đọc theo thứ sau:
-   + [Mở đầu](https://github.com/kuonvu/su_dung_tmux/blob/master/README.md)
-   + [Cài đặt chương trình](https://github.com/kuonvu/su_dung_tmux/blob/master/1_cai_dat_va_bat_dau_su_dung.md)
-   + [Làm việc với session](https://github.com/kuonvu/su_dung_tmux/blob/master/2_lam_viec_voi_session.md)
-   + [Làm việc với windown tab](https://github.com/kuonvu/su_dung_tmux/blob/master/3_lam_viec_voi_window_tab.md)
-   + [Làm việc với pane](https://github.com/kuonvu/su_dung_tmux/blob/master/4_lam_viec_voi_pane.md)
-   + [Copy mode trong tmux](https://github.com/kuonvu/su_dung_tmux/blob/master/5_copy_mode_trong_tmux.md)
-   + [Tùy biến thanh trạng thái của tmux](https://github.com/kuonvu/su_dung_tmux/blob/master/6_tuy_bien_thanh_trang_thai_cua_tmux.md)
+### Cách lệnh làm việc với các panel trong 1 cửa sổ
+```
+Ctrl+b %                  # chia đôi màn hình theo chiều dọc
+Ctrl+b "                  # chia đôi màn hình theo chiều ngang
+Ctrl+b o/<phím mũi tên>   # Di chuyển giữa các panel
+Ctrl+b q                  # Hiện số thứ tự trên
+Ctrl+b x                  # Xoá panel
+```
