@@ -12,3 +12,4 @@
 * Liệt kê tất cả các session:
 	```$tmux ls```
 
+* Phần tiếp theo [Làm việc với windown tab](https://github.com/kuonvu/su_dung_tmux/blob/master/3_lam_viec_voi_windown_tab.md)

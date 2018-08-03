@@ -43,3 +43,5 @@
    -> Một máy tính có thể có nhiều Tmux session chạy cùng lúc trên nó
       -> 1 session (một phiên làm việc) có thể chứa nhiều Window Tab
          -> 1 Window Tab có thể chứa nhiều Pane
+
+Phần tiếp theo [Làm việc với session](https://github.com/kuonvu/su_dung_tmux/blob/master/2_lam_viec_voi_session.md)

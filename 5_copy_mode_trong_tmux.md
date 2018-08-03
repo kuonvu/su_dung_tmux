@@ -25,4 +25,5 @@
 * Mặc định của bộ nhớ lịch sử hiển thị trong tmux chỉ khỏang 1000 dòng cho 1 "Pane"
   Để có thể lưu giữ được nhiều lịch sử hiển thị hơn ta có thể thêm dòng sau vào file .tmux.conf
 
-   set-option -g history-limit 5000
+   ```set-option -g history-limit 5000```
+* Phần tiếp theo [Tùy biến thanh trạng thái của tmux](https://github.com/kuonvu/su_dung_tmux/blob/master/6_tuy_bien_thanh_trang_thai_cua_tmux.md)

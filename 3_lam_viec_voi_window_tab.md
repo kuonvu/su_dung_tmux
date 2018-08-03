@@ -16,3 +16,4 @@
 * Trở về Window Tab vừa mới truy cập trước đó:
    ```<Prefix> - p```
    
+* Phần tiếp theo [Làm việc với pane](https://github.com/kuonvu/su_dung_tmux/blob/master/4_lam_viec_voi_pane.md)

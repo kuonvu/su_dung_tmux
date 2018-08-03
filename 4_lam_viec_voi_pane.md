@@ -54,3 +54,4 @@
 * Thay đổi layout của các panes: (từ chia ngang sang chia dọc)
 		```<Prefix> - "khoảng trắng"```
 
+* Phần tiếp theo [Copy mode trong tmux](https://github.com/kuonvu/su_dung_tmux/blob/master/5_copy_mode_trong_tmux.md)
