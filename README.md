@@ -38,7 +38,7 @@ Những tính năng cơ bản của TMUX:
    + [Mở đầu](https://github.com/kuonvu/su_dung_tmux/blob/master/README.md)
    + [Cài đặt chương trình](https://github.com/kuonvu/su_dung_tmux/blob/master/1_cai_dat_va_bat_dau_su_dung.md)
    + [Làm việc với session](https://github.com/kuonvu/su_dung_tmux/blob/master/2_lam_viec_voi_session.md)
-   + [Làm việc với windown tab](https://github.com/kuonvu/su_dung_tmux/blob/master/3_lam_viec_voi_windown_tab.md)
+   + [Làm việc với windown tab](https://github.com/kuonvu/su_dung_tmux/blob/master/3_lam_viec_voi_window_tab.md)
    + [Làm việc với pane](https://github.com/kuonvu/su_dung_tmux/blob/master/4_lam_viec_voi_pane.md)
    + [Copy mode trong tmux](https://github.com/kuonvu/su_dung_tmux/blob/master/5_copy_mode_trong_tmux.md)
    + [Tùy biến thanh trạng thái của tmux](https://github.com/kuonvu/su_dung_tmux/blob/master/6_tuy_bien_thanh_trang_thai_cua_tmux.md)
