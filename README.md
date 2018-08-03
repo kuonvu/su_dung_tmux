@@ -1,6 +1,6 @@
 # Cách sử dụng tmux
 
-![alt tag](https://raw.githubusercontent.com/giangdo/cach_su_dung_tmux/master/tmux_window_0.png)
+![alt tag](https://github.com/kuonvu/su_dung_tmux/blob/master/tmux.png)
 
 Môi trường làm việc của người dùng Linux thường là môi trường command line.
 Và các chương trình terminal có sẵn ở các máy Linux chỉ hỗ trợ người dùng những tính năng cơ bản mà thôi.
