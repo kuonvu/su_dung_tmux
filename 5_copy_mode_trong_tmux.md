@@ -1,8 +1,8 @@
 * Để có thể xem lịch sử hiển thị/ cuộn trang trong tmux, ta phải đi vào copy mode:
-   <Prefix> - [
+   ```<Prefix> - [```
 
 * Thóat khỏi Copy mode:
-   q
+   ```q```
 
 * Di chuyển trong copy mode:
    + Bằng vim key:
@@ -20,7 +20,7 @@
       y
    + truy cập đến nơi cần dán chuỗi (VIM hoặc là dấu nhắc command line)
    + dán chuỗi
-      <Prefix> - ]
+      ```<Prefix> - ]```
 
 * Mặc định của bộ nhớ lịch sử hiển thị trong tmux chỉ khỏang 1000 dòng cho 1 "Pane"
   Để có thể lưu giữ được nhiều lịch sử hiển thị hơn ta có thể thêm dòng sau vào file .tmux.conf
